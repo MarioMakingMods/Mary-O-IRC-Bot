@@ -9,7 +9,6 @@ exports.module = function() {
 			if(!message)
 				message = "Welcome back, %!";
 			message = message.replace("%", user);
-			this.channel.say(message);
 		}
 	};
 };
