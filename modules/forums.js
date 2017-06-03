@@ -3,6 +3,6 @@
 
 exports.module = function() {
 	this.onCommand_forums = function(nick, command) {
-		this.channel.say("Here is a link to the forums: http://mariomakingmods.net/board/.");
+		this.channel.say("Here is a link to the forums: http://mariomods.net/board/.");
 	};
 };
